@@ -15,7 +15,7 @@ pub struct ShortUserInfo {
     pub full_name: String,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 pub struct ClimbPreview {
     pub id: usize,
     pub grade: String,
